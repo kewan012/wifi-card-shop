@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700");
+@import url(fontstyle.css);
+/* 
+body{
+    padding: 0!important;
+    margin: auto!important
+} */
+
+
+.container{
+    align-items: flex-end;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 3559px;
+    overflow: hidden;
+    width: 1680px;
+}
+
+.hidden, .hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+/*menu*/
+
+.menu{
+    align-items: center;
+    background-color: var(--green-blue-3);
+    display: flex;
+    height: 165px;
+    left: 0;
+    min-width: 1680px;
+    padding: 8px 0;
+    position: fixed;
+    top:0;
+    z-index: 4;
+}
+
+.menu-content{
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 9px;
+    margin-left: 192px;
+    min-width: 620px;
+}
+
+.menu-home{
+    align-items:flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 46px;
+    margin-left: -1px;
+    padding: 3px 5.1px;
+    transition: all 0.2s ease;
+    width: 192px;
+}
+
+.home:hover{
+    transform: scale(1.1);
+}
+
+.home{
+    cursor: pointer;
+    letter-spacing: 0;
+    margin-left: 1px;
+    min-height: 29px;
+    transition: all 0.2s ease;
+    width: 181px;
+}
+
+.menu-direction{
+    align-items:flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 46px;
+    margin-left: 22px;
+    padding: 2px 0;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    width: 192px;
+}
+
+.menu-direction:hover{
+    transform: scale(1.1);
+}
+
+.direction{
+    cursor: pointer;
+    letter-spacing: 0;
+    margin-left: 4px;
+    min-height: 31px;
+    transition: all 0.2s ease;
+    width: 195px;
+}
+
+.menu-check:hover{
+    transform: scale(1.1);
+}
+
+.menu-check{
+    align-items:flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 46px;
+    margin-left: 22px;
+    padding: 2px 0;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    width: 192px;
+}
+
+.check:hover{
+    transform: scale(1.1);
+}
+
+.check{
+    cursor: pointer;
+    letter-spacing: 0;
+    margin-left: 1px;
+    min-height: 31px;
+    transition: all 0.2s ease;
+    width: 192px;
+}
+
+.icon-logincart{
+    height: 66px;
+    margin-bottom: 11px;
+    margin-left:2px;
+    width:160px;
+    background-color: aqua;
+}
+
+.logo-wm-white-stroke{
+    align-self: flex-end;
+    height: 142px;
+    margin-left: -5px;
+    object-fit: cover;
+    width: 674px;
+}
+
+/* end menu */
+
+/* slide */
+
+.slide{
+    align-items: flex-end;
+    display: flex;
+    margin-top: 10px;
+    min-width: 1680px;
+    z-index: 3;
+}
+
+.polygon-container{
+    align-items: flex-end;
+    background-image: url(../img/Banner_\(2\).png);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    height: 763px;
+    justify-content: flex-end;
+    margin-bottom: -10px;
+    min-width: 1680px;
+    padding: 279px 52.5px;
+}
+
+.polygon-2{
+    height: 162px;
+    width: 80px;
+}
+.polygon-3{
+    height: 162px;
+    margin-left: 1392px;
+    width: 80px;
+}
+
+/* end slide */
+
+/* product-list */
+.product-list{
+    align-items: flex-end;
+    background-color: var(--green-blue-3);
+    display: flex;
+    flex-direction: column;
+    min-height: 1368px;
+    padding :27px, 85.2px;
+    width: 1680px;
+    z-index: 2;
+}
+
+.overlap-group7{
+    align-items: flex-start;
+    align-self: center;
+    background-color: var(--green-blue-3);
+    display: flex;
+    height: 98px;
+    margin-right: 2px;
+    min-width: 728px;
+    padding: 18px 178.1px;
+}
+
+.danh-sach-the{
+    -webkit-text-stroke: 1px var(--green-blue-3);
+    letter-spacing: 0;
+    min-height: 51px;
+    width: 357px;
+}
+
+.khu-vuc-kiem-tra{
+    align-items:center;
+    align-self: center;
+    display: flex;
+    margin-left: 27.83px;
+    margin-top: 11px;
+    min-width: 1452px;
+}
+
+.khu-vuc{
+    align-items: flex-end;
+    display: flex;
+    height: 98px;
+    min-width: 579px;
+}
+
+.icon-khu-vuc{
+    align-items: flex-start;
+    background-color:  var(--white);
+    border-radius: 50px;
+    display: flex;
+    height: 80px;
+    margin-bottom: 2px;
+    min-width: 79px;
+    padding: 13px 17.6px;
+}
+.vector{
+    height: 43px;
+    width: 37px;
+}
+
+.khu-vuc-text{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12;
+    min-height: 98px;
+    width: 490px;
+}
+
+.khu-vuc-text-1{
+    letter-spacing: 0;
+    margin-left: 0.31px;
+    min-height: 36px;
+    width: 167px;
+}
+
+.overlap-group {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    height: 53px;
+    margin-top: 9px;
+    min-width: 488px;
+    padding: 5px 18px;
+}
+
+.input-khu-vuc-text{
+    letter-spacing: 0;
+    min-height: 36px;
+    width: 313px;
+}
+
+.kiem-tra{
+    align-items: flex-end;
+    display: flex;
+    margin-left: 358px;
+    margin-top: 2px;
+    width: 50%;
+}
+
+.overlap-group2{
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-content: flex-end;
+    margin-bottom: 1px;
+    min-width: 78px;
+    padding: 0 14.7px;
+}
+
+.bicheck-circle-fill{
+    height: 50px;
+    width: 50px;
+}
+
+.overlap-group1{
+    height: 94px;
+    margin-left: 11px;
+    position: relative;
+    width: 426px;
+}
+
+.kiem-tra-the-1{
+    left: 0;
+    letter-spacing: 0;
+    position: absolute;
+    top: 0;
+    width: 152px;
+}
+
+.overlap-group-1{
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    height: 53px;
+    left: 0;
+    min-width: 426px;
+    padding: 5px 16.9px;
+    position: absolute;
+    top: 41px;
+}
+
+.nhap-ma-the{
+    letter-spacing: 0;
+    min-height: 36px;
+    width: 349px;
+}
+
+/* từng thẻ  */
+
+.flex-row{
+    align-items: flex-start;
+    display: flex;
+    margin-top: 52px;
+    min-width: 1498px;
+}
+
+.the-ngay{
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    min-height: 484px;
+    width: 475px;
+}
+
+.overlap-group2-1{
+    align-items: flex-start;
+    background-color: var(--green-blue-3);
+    display: flex;
+    height: 93px;
+    min-width: 475px;
+    padding: 26px 117.8px;
+}
+
+.the-ngay-title{
+    letter-spacing: 0;
+    min-height: 39px;
+    text-align: center;
+    width: 239px;
+}
+
+.overlap-group1-1{
+    align-items: flex-start;
+    background-color: var();
+    display: flex;
+    height: 47px;
+    justify-content: flex-end;
+    margin-top: 1px;
+    min-width: 475px;
+    padding: 5px 96.9px;
+}
+
+.x7000-vn{
+    letter-spacing: 0;
+    min-height: 36px;
+    width: 216px;
+}
+
+.button-the{
+    align-items: center;
+    border: 2px solid rgb(21,107,185);
+    display: flex;
+    margin-right: 0.98px;
+    margin-top: 27px;
+    min-width: 249px;
+    padding: 14.2px 23.1px;
+}
+
+.mua-ngay{
+    letter-spacing: 0;
+    margin-left: 12px;
+    margin-top: 0.73px;
+    min-height: 26px;
+    width: 130px;
+}
+
+.elshopping-cart-sign{
+    align-self: flex-end;
+    height: 42px;
+    width: 48px;
+}
+
+.overlap-group-2{
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    height: 211px;
+    margin-left: 0.94px;
+    margin-top: 12px;
+    min-width: 412px;
+    padding: 12px 10.3px;
+}
+
+.description-text{
+    letter-spacing: 0;
+    min-height: 141px;
+    width: 391px;
+}
+
+.the-tuan{
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    height: 211px;
+    justify-content: flex-end;
+    left: 33px;
+    min-width: 412px;
+    padding: 10.7px 1.5px;
+    position: absolute;
+    top: 153px;
+}
+
+.rectangle-66{
+    background-color: var(--white);
+    height: 488px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 475px;
+}
+
+.the-thang{
+    height: 211px;
+    left: 38px;
+    position: absolute;
+    top: 153px;
+    width: 412px;
+}
+
+.rectangle-68{
+    background-color: var(--white);
+    height: 211px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 411px;
+}
+
+.flex-row-1{
+    align-items: flex-end;
+    display: flex;
+    height: 518px;
+    margin-right: 1.04px;
+    margin-top: 49px;
+    min-width: 1497px;
+}
+
+.the-thang-60GB{
+    height: 484px;
+    position: relative;
+    width: 476px;
+}
+
+
