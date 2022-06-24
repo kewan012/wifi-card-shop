@@ -295,6 +295,23 @@ body{
     font-size: 18px;
 }
 
+.khuyen-mai{
+    width: 7%;
+    height: 5%;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    font-size: 15px;
+    color: white;   
+    background-color: red;
+    position: absolute;
+    transform: scale(1,1);
+    right: 39%;
+    bottom: -40.5%;
+    font-style: bold;
+}
+
+
 /* end danh sách thẻ*/
 
 /* Thông báo */
