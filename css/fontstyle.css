@@ -1,0 +1,262 @@
+:root{
+    --black-2: rgba(0,0,0,0.58);
+    --black: rgba(0,0,0,1);
+    --congress-blue: rgba(2,69,126,1);
+    --green-blue-3: rgba(15,103,178,0.4);
+    --green-blue-2: rgba(16,104,178,0.8);
+    --green-blue: #1068B2;
+    --orange-red: rgba(248,27,27,1);
+    --red: rgba(255,0,0,1);
+    --white: rgba(255,255,255,1);
+
+
+
+    --font-size-xs: 18px;
+    --font-size-m:25px;
+    --font-size-l:10px;
+    --font-size-l:30px;
+    --font-size-xl:12px;
+    --font-size-xl:36px;
+    --font-size-xxl:40px;
+    --font-size-xxxl:16px;
+    --font-size-xxxxl:20px;
+    --font-size-xxxxxl:35px;
+    --font-size-m2: 8px;
+    --font-size-xxl2: 45px;
+    
+    --font-family-inter: "Inter";
+    --font-family-segeo_ui-bold: "Segeo UI-Bold";
+    --font-family-segeo_ui-regular: "Segeo UI-Regular";
+    --font-family-solway-regular: "Solway-Regular";
+    --font-family-solway: "Solway";
+    --font-family-ubuntu: "Ubuntu";
+    --font-family-verdana-bold: "Verdana-Bold";
+    --font-family-verdana-regular: "Verdana-Regular";
+}
+
+/* Classes */
+
+.verdana-regular-normal-black-45px{
+    color: var(--black);
+    font-family: var(--font-family-verdana-regular);
+    font-weight: 400;
+    font-size: var(--font-size-xxl2);
+    font-style: normal;
+}
+.verdana-regular-normal-white-20px{
+    color: var(--white);
+    font-family: var(--font-family-verdana-regular);
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.border-1px-white{
+    border: 1px solid var(--white);
+}
+
+.inter-normal-black{
+    color: var(--black);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+    font-family: var(--font-family-inter);
+}
+
+.vardana-bold-black-25px{
+    color: var(--black);
+    font-family: var(--font-family-verdana-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.verdana-bold-white-30px{
+    color: var(--white);
+    font-family: var(--font-family-verdana-bold);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.border-5px-green-blue-2{
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--green-blue-2)
+}
+
+.verdana-bold-red-25px{
+    color: var(--red);
+    font-family: var(--font-family-verdana-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-bold-green-blue-30px{
+    color: var(--green-blue-2);
+    font-family: var(--font-family-ubuntu);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-normal-black-24px{
+    color: var(--black);
+    font-family: var(--font-family-ubuntu);
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.border-1px-green-blue{
+    border: 1px solid var(--green-blue);
+}
+
+.verdana-bold-congress-blue-25px{
+    color: var(--congress-blue);
+    font-family: var(--font-family-verdana-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-normal-black-30px{
+    color: var(--black-2);
+    font-family: var(--font-family-ubuntu);
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-normal-black-20px{
+    color: var(--black);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-xxxxl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.border-3px-green-blue{
+    border: 3px solid var(--green-blue);
+}
+
+.verdana-regular-normal-black-24px{
+    color: var(--black);
+    font-family: var(--font-family-verdana-regular);
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.verdana-bold-white-25px{
+    color: var(--white);
+    font-family: var(--font-family-verdana-bold);
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-normal-black-45px{
+    color: var(--black);
+    font-family: var(--font-family-ubuntu);
+    font-size: 45px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.verdana-regular-normal-white-25px{
+    color: var(--white);
+    font-family: var(--font-family-verdana-regular);
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.verdana-bold-orange-red-25px{
+    color: var(--orange-red);
+    font-family: var(--font-family-verdana-bold);
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.verdana-regular-normal-black-30px-2{
+    color: var(--black-2);
+    font-family: var(--font-family-verdana-regular);
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.verdana-bold-green-blue-25px{
+    color: var(--green-blue);
+    font-family: var(--font-family-verdana-bold);
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.verdana-regular-normal-black-30px{
+    color: var(--black);
+    font-family: var(--font-family-verdana-regular);
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.verdana-bold-congress-blue-30px{
+    color: var(--congress-blue);
+    font-family: var(--font-family-verdana-bold);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.verdana-bold-white-40px{
+    color: var(--white);
+    font-family: var(--font-family-verdana-bold);
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.verdana-regular-normal-black-25px{
+    color: var(--black);
+    font-family: var(--font-family-verdana-regular);
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter-bold-white-30px{
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.border-5px-white{
+    border: 5px solid var(--white);
+}
+
+.verdana-regular-normal-white-36px{
+    color: var(--white);
+    font-family: var(--font-family-verdana-regular);
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.verdana-bold-black-25px{
+    color: var(--black);
+    font-family: var(--font-family-verdana-bold);
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.warning{
+    color: red;
+}
