@@ -1,0 +1,406 @@
+@import url(fontstyle.css);
+
+body{
+    min-width: 1680px;
+    width: 1680px;
+
+    border: 1px solid #1068B2;
+}
+
+*{
+
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: var(--white);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* menu */
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(16, 104, 178, 0.4) ;
+    height: 10%;
+    z-index: 1;
+    left: 0;
+}
+
+.menu-logo{
+    flex-grow: 3;
+    height: 100%;
+    margin-left: 10rem;
+    margin-right: 0;
+}
+
+.menu-content{
+    flex-grow: 4;
+    flex-shrink: 0;
+    margin-left: 10%;
+}
+
+.menu-content> ul{
+    display: flex;
+    margin-left:5%
+}
+
+.menu-content>ul>li{
+    list-style-type: none;
+    align-items: flex-end;
+}
+
+.icon-logincart{
+    flex-grow: 3;
+}
+
+.icon-logincart > i{
+    color: azure;
+    padding: 0.6rem;
+}
+
+/*end menu*/
+
+/* slide */
+/* .slide{
+    width: 100%;
+    background-image: url(../img/Banner_\(2\).png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+} */
+
+.change-slide-icon{
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    height: 100%;
+    justify-content: space-between;
+    position: relative;
+    top: 22rem;
+}
+
+.arrow-left{
+    width: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+    border-right:50px solid blue; 
+    margin-left: 0 ;
+    margin-right: 0;
+    
+}
+.arrow-right{
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid blue;
+    margin-left: 0 ;
+    margin-right: 0;
+}
+/* end slide */
+
+/* product-list */
+.product-list{
+    width: 100%;
+    background-color: rgba(16, 104, 178, 0.4);
+}
+
+/*product title*/
+.product-lish-title{
+    width: 100%;
+}
+
+.product-list-name{
+    margin-top: 1%;
+    width: 40%;
+    border: 5px solid #1068B2;
+    text-align: center;
+}
+
+/* khu vực kiểm tra*/
+.khu-vuc-kiem-tra{
+    width: 100%;
+    display: flex;
+    margin-top: 1%;
+}
+
+.khu-vuc{
+    width: 50%;
+    display: inline-flex;
+}
+
+.icon-khu-vuc{
+    border: 0.1rem solid white;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    margin-left: 15rem;
+    margin-right: 0;
+    border-radius: 100%;
+}
+
+.icon-khu-vuc > i{
+    color: white;
+}
+
+.text-khu-vuc{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.title-text-khu-vuc{
+    margin-left: 0;
+}
+
+.text-khu-vuc > select{
+    width: 100%;
+    padding-right: 5rem;
+    font-size: 20px;
+}
+
+.kiem-tra{
+    width: 50%;
+    display: inline-flex;
+}
+
+.icon-kiem-tra{
+    border: 0.1rem solid white;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    margin-left: 15rem;
+    margin-right: 0;
+    border-radius: 100%;
+}
+
+.icon-kiem-tra >i{
+    color: white;
+}
+
+.text-kiem-tra{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.text-kiem-tra > input{
+    width: 100%;
+    padding-right: 3rem;
+    font-size: 20px;
+}
+
+/*danh sách thẻ*/
+.danh-sach-the{
+    width: 100%;
+}
+
+.danh-sach-the{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-row-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+.flex-row-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+
+.the{
+    background-color: white;
+    width: 28%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    letter-spacing: 0;
+    padding-right: 0.625rem;
+}
+
+.title-the{
+    border: 2px solid white;
+    background-color: #1068B2;
+    width: 100%;
+    text-align: center;
+    padding: 0.25rem;
+    color: #FFFF;
+    font-style: normal;
+}
+
+.sub-title-the{
+    background-color: rgba(0, 14, 145, 0.8);
+    width: 100%;
+    text-align: center;
+    padding: 0.25rem;
+    color: #FFFF;
+    padding-left: 0.5rem;
+}
+
+.description-the{
+    border: 0.15rem solid rgba(16, 104, 178, 0.8);
+    margin-top: 0.8rem;
+    padding: 0.28rem 0 0 1.2rem;
+    width: 80%;
+    height: 8rem;
+    line-height: 1.5;
+}
+
+.button-the{
+    width: 30%;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    border: 0.3rem solid #1068B2;
+    border-radius: 2.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-the > .icon{
+    background-color: #1068B2;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0.3rem;
+    border-radius: 2.5rem;
+    color: white;
+    margin-left: 0;
+}
+
+.button-the > p{
+    width: 5rem;
+    font-size: 18px;
+}
+
+/* end danh sách thẻ*/
+
+/* Thông báo */
+
+.report-list{
+    background-color: #1068B2;
+    border-top: 0.2rem solid white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.report-list-title{
+    margin-top: 1%;
+    width: 40%;
+    border: 5px solid white;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.row{
+    display: flex;
+    flex-flow: row;
+    width: 97%;
+    padding-bottom: 0.5rem;
+}
+
+.img-report-list{
+    width: 12rem;
+    height: 10rem;
+    margin: 0.3rem;
+    border: 0.4rem solid white;
+    border-radius: 25px;
+}
+
+.description-report-list{
+    width: 100%;
+    height: 10rem;
+    background-color: white;
+    padding: 0.4rem;
+    margin-left: 2rem;
+    border-radius: 25px;
+}
+
+.description-report-list > .row {
+    margin-bottom: 0.5rem;
+}
+
+.description-report-list > .row > h1{
+    margin-left: 0;
+}
+.description-report-list > .row > p{
+    margin-right: 0.5rem;
+}
+
+.description-report-list >p{
+    margin-left: 1.2rem;
+}
+
+.description-report-list > h4{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    margin-right: 1.5rem
+}
+
+/* end thông báo */
+
+/* footer */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;   
+}
+
+.footer > .info-cong-ty{
+    margin-top: 0.3rem;
+}
+.footer > .info-cong-ty > p{
+    font-size: 20px;
+}
+
+.footer > .info{
+    margin-top: 0.3rem;
+}
+
+.footer > .info > ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer > .info > ul > li > i{
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    color: #1068B2;
+}
+
+.icon-info{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 0.5rem;
+}
+.icon-info-cn{
+    width: 10rem;
+    height: 4rem;
+    margin-right: 0.5rem;
+}
+
+.stick-black{
+    background-color: black;
+    width: 100%;
+    height: 2rem;
+}
